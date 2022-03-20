@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,7 +139,7 @@
         <!--View Controller-->
         <scene sceneID="f21-H6-IOF">
             <objects>
-                <viewController id="61z-Cu-Qns" customClass="ViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="61z-Cu-Qns" customClass="ViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CNt-aj-lqw">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,7 +166,7 @@
         <!--Log In View Controller-->
         <scene sceneID="zo6-Mk-liT">
             <objects>
-                <viewController storyboardIdentifier="logIn" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HMA-M6-Rx2" customClass="LogInViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="logIn" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HMA-M6-Rx2" customClass="LogInViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zj1-nX-Pau">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,7 +233,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="5Cv-kp-YMX">
             <objects>
-                <viewController storyboardIdentifier="signUp" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yJR-oB-NUb" customClass="SignUpViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signUp" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yJR-oB-NUb" customClass="SignUpViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yVX-mK-B4Z">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,8 +291,7 @@
         <!--Logout View Controller-->
         <scene sceneID="oqO-by-Qkr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ymk-dV-NWm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="loginHome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HeB-rX-cpa" customClass="LogoutViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginHome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HeB-rX-cpa" customClass="LogoutViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oOk-gp-UEX">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -319,6 +318,7 @@
                     </view>
                     <toolbarItems/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ymk-dV-NWm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7042.9906542056069" y="-111.44708423326135"/>
         </scene>
@@ -2004,10 +2004,10 @@ Nasal: congestion or sneezing
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jV-ex-iiM">
-                                <rect key="frame" x="149" y="438" width="116" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jV-ex-iiM">
+                                <rect key="frame" x="149" y="438" width="123" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2366,7 +2366,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
         <!--Health ScreeningVC-->
         <scene sceneID="ykc-hH-eSp">
             <objects>
-                <viewController id="9WB-Y0-GSv" customClass="HealthScreeningVC" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9WB-Y0-GSv" customClass="HealthScreeningVC" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yHo-5D-bqX">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2415,7 +2415,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
         <!--Result Screen View Controller-->
         <scene sceneID="gh2-NC-hhB">
             <objects>
-                <viewController id="cB4-Cn-cEf" customClass="ResultScreenViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cB4-Cn-cEf" customClass="ResultScreenViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8qZ-Lt-5eA">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
