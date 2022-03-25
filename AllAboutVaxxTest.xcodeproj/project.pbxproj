@@ -28,6 +28,9 @@
 		3CC8820827AE05EC00F6C3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC8820627AE05EC00F6C3B1 /* Main.storyboard */; };
 		3CC8820A27AE05EE00F6C3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */; };
 		3CC8820D27AE05EE00F6C3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */; };
+		71096F0F27EE0B3000C725BF /* NeewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */; };
+		71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1027EE0ECE00C725BF /* APICallerFile.swift */; };
+		71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71096F1627EE218D00C725BF /* NewsTableViewCell.swift */; };
 		C7A4B01B27DDE44A007E50D8 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		3CC8820C27AE05EE00F6C3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC8820E27AE05EE00F6C3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEAC86927B098A200C71F2C /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeewsFeedViewController.swift; sourceTree = "<group>"; };
+		71096F1027EE0ECE00C725BF /* APICallerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerFile.swift; sourceTree = "<group>"; };
+		71096F1627EE218D00C725BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +122,9 @@
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
 				3CC8820E27AE05EE00F6C3B1 /* Info.plist */,
 				1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */,
+				71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */,
+				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
+				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
 			);
 			path = AllAboutVaxxTest;
 			sourceTree = "<group>";
@@ -217,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CC8820527AE05EC00F6C3B1 /* ViewController.swift in Sources */,
+				71096F1727EE218D00C725BF /* NewsTableViewCell.swift in Sources */,
+				71096F0F27EE0B3000C725BF /* NeewsFeedViewController.swift in Sources */,
 				1B56820B27D9193A001DAF87 /* SignUpViewController.swift in Sources */,
+				71096F1127EE0ECE00C725BF /* APICallerFile.swift in Sources */,
 				3CC8820127AE05EC00F6C3B1 /* AppDelegate.swift in Sources */,
 				1B56820927D9191A001DAF87 /* LogInViewController.swift in Sources */,
 				3CC8820327AE05EC00F6C3B1 /* SceneDelegate.swift in Sources */,
