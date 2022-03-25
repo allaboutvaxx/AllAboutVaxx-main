@@ -2024,10 +2024,10 @@ Nasal: congestion or sneezing
             </objects>
             <point key="canvasLocation" x="5077.5700934579436" y="-803.45572354211674"/>
         </scene>
-        <!--View Controller-->
+        <!--Neews Feed View Controller-->
         <scene sceneID="FfB-FK-mnk">
             <objects>
-                <viewController id="LUs-Tm-YtJ" sceneMemberID="viewController">
+                <viewController id="LUs-Tm-YtJ" customClass="NeewsFeedViewController" customModule="AllAboutVaxx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TqF-ch-kDc">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
