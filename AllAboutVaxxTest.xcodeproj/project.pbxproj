@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B13E9DA27C159C700F02EAD /* HealthScreeningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B13E9D927C159C700F02EAD /* HealthScreeningVC.swift */; };
 		1B13E9DC27C15B3100F02EAD /* ResultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B13E9DB27C15B3100F02EAD /* ResultScreenViewController.swift */; };
+		1B469DAB27EE50F100D102DC /* uploadDocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B469DAA27EE50F100D102DC /* uploadDocsViewController.swift */; };
 		1B56820927D9191A001DAF87 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56820827D9191A001DAF87 /* LogInViewController.swift */; };
 		1B56820B27D9193A001DAF87 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56820A27D9193A001DAF87 /* SignUpViewController.swift */; };
 		1BD50B9727D4F3BB0016ED7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		1B13E9D927C159C700F02EAD /* HealthScreeningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScreeningVC.swift; sourceTree = "<group>"; };
 		1B13E9DB27C15B3100F02EAD /* ResultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenViewController.swift; sourceTree = "<group>"; };
+		1B469DAA27EE50F100D102DC /* uploadDocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadDocsViewController.swift; sourceTree = "<group>"; };
 		1B56820827D9191A001DAF87 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1B56820A27D9193A001DAF87 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -117,14 +119,15 @@
 				1B56820827D9191A001DAF87 /* LogInViewController.swift */,
 				1B56820A27D9193A001DAF87 /* SignUpViewController.swift */,
 				C7A4B01A27DDE44A007E50D8 /* LogoutViewController.swift */,
+				71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */,
+				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
+				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
+				1B469DAA27EE50F100D102DC /* uploadDocsViewController.swift */,
 				3CC8820627AE05EC00F6C3B1 /* Main.storyboard */,
 				3CC8820927AE05EE00F6C3B1 /* Assets.xcassets */,
 				3CC8820B27AE05EE00F6C3B1 /* LaunchScreen.storyboard */,
 				3CC8820E27AE05EE00F6C3B1 /* Info.plist */,
 				1BD50B9627D4F3BB0016ED7C /* GoogleService-Info.plist */,
-				71096F0E27EE0B3000C725BF /* NeewsFeedViewController.swift */,
-				71096F1027EE0ECE00C725BF /* APICallerFile.swift */,
-				71096F1627EE218D00C725BF /* NewsTableViewCell.swift */,
 			);
 			path = AllAboutVaxxTest;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				3CC8820327AE05EC00F6C3B1 /* SceneDelegate.swift in Sources */,
 				1B13E9DA27C159C700F02EAD /* HealthScreeningVC.swift in Sources */,
 				C7A4B01B27DDE44A007E50D8 /* LogoutViewController.swift in Sources */,
+				1B469DAB27EE50F100D102DC /* uploadDocsViewController.swift in Sources */,
 				1B13E9DC27C15B3100F02EAD /* ResultScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
